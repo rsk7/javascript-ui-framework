@@ -6,12 +6,12 @@
   <body>
     <template id="oscillator"> 
       <div id="oscillator">
-        <p id="name"></p>
-        <p id="freq"></p>
-        <input type="text" id="nameIn"/>
-        <input type="number" id="freqIn"/>
-        <input type="number" id="gainIn"/>
-        <button id="on">Play</button>
+        <p d-value="name"></p>
+        <p d-value="freq"></p>
+        <input type="text" d-key="name"/>
+        <input type="number" d-key="freq"/>
+        <input type="number" d-key="gain"/>
+        <button id="on" d-key="on">Play</button>
       </div>
     </template>
   </body>
