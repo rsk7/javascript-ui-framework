@@ -1,0 +1,24 @@
+.oscillator {
+	padding: 10px;
+	border: 2px solid black;
+	height: 100px;
+	width: 100px;
+}
+
+.oscillator input {
+	width: 50px;
+	border: none;
+}
+
+.oscillator .unit {
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.oscillator input.primary {
+	font-size: 14px;
+}
+
+.oscillator button {
+	display: block;
+}

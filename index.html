@@ -2,16 +2,15 @@
 <html>
   <head>
     <script type="text/javascript" src="lib/bundle.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles.css"/>
   </head>
   <body>
     <template id="oscillator"> 
-      <div id="oscillator">
-        <p d-value="name"></p>
-        <p d-value="freq"></p>
-        <input type="text" d-key="name"/>
-        <input type="number" d-key="freq"/>
+      <div class="oscillator">
+        <input type="number" class="primary" d-key="freq"/>
+        <span class="unit">Hz</span>
         <input type="number" d-key="gain"/>
-        <button id="on" d-key="on">Play</button>
+        <button d-key="on">Play</button>
       </div>
     </template>
   </body>
